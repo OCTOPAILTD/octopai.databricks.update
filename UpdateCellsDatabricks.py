@@ -4,6 +4,9 @@ import json
 import requests
 
 
+with open('Config.json', 'r') as f:
+    config = json.load(f)
+
 def add_cells_to_notebook(notebook_path,language):
     lineagePythonForPy="HeadersForSpline/lineagePythonForPy.txt"
     lineagePythonForSQL = "HeadersForSpline/lineagePythonForSQL.txt"
@@ -39,10 +42,10 @@ def add_cells_to_notebook(notebook_path,language):
 
 
     # Get notebook content
-    url = f"https://adb-7614304971745696.16.azuredatabricks.net/api/2.0/workspace/export?path={notebook_path}"
+    url = f'{config["DatabricksWorkspaceURL"]}/api/2.0/workspace/export?path={notebook_path}'
     headers = {
         'Content-Type': 'application/ecmascript',
-        'Authorization': 'Bearer dapi6025b844f74356b6be5446869ef8c8f5-2'
+        'Authorization': f'Bearer {config["Token"]}'
     }
 
     response = requests.get(url, headers=headers)
