@@ -1,0 +1,68 @@
+--  MAGIC %scala
+--  MAGIC import scala.util.parsing.json.JSON
+--  MAGIC import za.co.absa.spline.harvester.SparkLineageInitializer._
+--  MAGIC import za.co.absa.spline.agent.AgentConfig
+--  MAGIC import za.co.absa.spline.harvester.postprocessing.AbstractPostProcessingFilter
+--  MAGIC import za.co.absa.spline.harvester.postprocessing.PostProcessingFilter
+--  MAGIC import org.apache.commons.configuration.Configuration
+--  MAGIC import za.co.absa.spline.harvester.conf.StandardSplineConfigurationStack
+--  MAGIC import za.co.absa.spline.harvester.HarvestingContext
+--  MAGIC import za.co.absa.spline.producer.model.ExecutionPlan
+--  MAGIC import za.co.absa.spline.producer.model.ExecutionEvent
+--  MAGIC import za.co.absa.spline.producer.model.ReadOperation
+--  MAGIC import za.co.absa.spline.producer.model.WriteOperation
+--  MAGIC import za.co.absa.spline.producer.model.DataOperation
+--  MAGIC import za.co.absa.spline.harvester.ExtraMetadataImplicits._
+--  MAGIC import za.co.absa.spline.harvester.SparkLineageInitializer._
+--  MAGIC
+--  MAGIC val notebookInformationJson = dbutils.notebook.getContext.toJson
+--  MAGIC val outerMap = JSON.parseFull(notebookInformationJson).getOrElse(0).asInstanceOf[Map[String,String]]
+--  MAGIC val tagMap = outerMap("tags").asInstanceOf[Map[String,String]]
+--  MAGIC val extraContextMap = outerMap("extraContext").asInstanceOf[Map[String,String]]
+--  MAGIC val notebookPath = extraContextMap("notebook_path").split("/")
+--  MAGIC val workspaceUrl=tagMap("browserHostName")
+--  MAGIC
+--  MAGIC val workspaceName=dbutils.notebook().getContext().notebookPath.get
+--  MAGIC val notebookURL = tagMap("browserHostName")+"/?o="+tagMap("orgId")+tagMap("browserHash")
+--  MAGIC val user = tagMap("user")
+--  MAGIC val name = notebookPath(notebookPath.size-1)
+--  MAGIC val notebookInfo = Map("notebookURL" -> notebookURL,
+--  MAGIC "user" -> user,
+--  MAGIC "workspaceName" ->workspaceName,
+--  MAGIC "workspaceUrl" -> workspaceUrl,
+--  MAGIC "name" -> name,
+--  MAGIC "mounts" -> dbutils.fs.ls("/FileStore/tables").map(_.path),
+--  MAGIC "timestamp" -> System.currentTimeMillis)
+--  MAGIC val notebookInfoJson = scala.util.parsing.json.JSONObject(notebookInfo)
+--  MAGIC
+--  MAGIC
+--  MAGIC class CustomFilter extends PostProcessingFilter {
+--  MAGIC   def this(conf: Configuration) = this()
+--  MAGIC
+--  MAGIC   override def processExecutionEvent(event: ExecutionEvent, ctx: HarvestingContext): ExecutionEvent =
+--  MAGIC     event.withAddedExtra(Map("foo" -> "bar"))
+--  MAGIC
+--  MAGIC   override def processExecutionPlan(plan: ExecutionPlan, ctx: HarvestingContext ): ExecutionPlan =
+--  MAGIC     plan.withAddedExtra(Map( "notebookInfo" -> notebookInfoJson))
+--  MAGIC
+--  MAGIC   override def processReadOperation(op: ReadOperation, ctx: HarvestingContext ): ReadOperation =
+--  MAGIC     op.withAddedExtra(Map("foo" -> "bar"))
+--  MAGIC
+--  MAGIC   override def processWriteOperation(op: WriteOperation, ctx: HarvestingContext): WriteOperation =
+--  MAGIC     op.withAddedExtra(Map("foo" -> "bar"))
+--  MAGIC
+--  MAGIC   override def processDataOperation(op: DataOperation, ctx: HarvestingContext  ): DataOperation =
+--  MAGIC     op.withAddedExtra(Map("foo" -> "bar"))
+--  MAGIC }
+--  MAGIC
+--  MAGIC
+--  MAGIC
+--  MAGIC val myInstance = new CustomFilter()
+--  MAGIC
+--  MAGIC
+--  MAGIC spark.enableLineageTracking(
+--  MAGIC   AgentConfig.builder()
+--  MAGIC     .postProcessingFilter(myInstance)
+--  MAGIC     .build()
+--  MAGIC )
+--  COMMAND ----------
