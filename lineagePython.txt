@@ -1,3 +1,0 @@
-# COMMAND ----------
-sc._jvm.za.co.absa.spline.harvester.SparkLineageInitializer.enableLineageTracking(spark._jsparkSession)
-# COMMAND ----------
