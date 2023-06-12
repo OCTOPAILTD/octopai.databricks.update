@@ -1,4 +1,6 @@
 
-{"Token": "dapi6025b844f74356b6be5446869ef8c8f5",
-  "DatabricksWorkspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net"
+{
+  "DatabricksWorkspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+  "Token": "dapi1c4cf5375ba46dc16b74bce14bad4b2a-2",
+
 }

@@ -71,11 +71,11 @@ def add_cells_to_notebook(notebook_path,language):
     # Add cells to the notebook
     updated_content=""
     if language=="PYTHON":
-        updated_content=lineagePythonForPyCnt+"\n"+ScalaHeaderForPyCnt+"\n"+new_text
+        updated_content=ScalaHeaderForPyCnt +"\n"+lineagePythonForPyCnt+"\n"+new_text
     elif language=="SQL":
-        updated_content = lineagePythonForSQLCnt + "\n" + ScalaHeaderForSQLCnt + "\n" + new_text
+        updated_content = ScalaHeaderForSQLCnt  + "\n" + lineagePythonForSQLCnt + "\n" + new_text
     else:
-        updated_content = lineagePythonForSQLCnt + "\n" + ScalaHeaderForSQLCnt + "\n" + new_text
+        updated_content = ScalaHeaderForSQLCnt   + "\n" + lineagePythonForSQLCnt + "\n" + new_text
     updated_content_decoded=""
     try:
         updated_content_decoded = base64.b64encode(updated_content.encode('utf-8'))
@@ -117,7 +117,7 @@ def checkIfAlreadyTagged(content,header):
 
 
 
-def process_workspace(path):
+def print_notebooks(self,path):
     # List contents in the given path
     url = f"https://adb-7614304971745696.16.azuredatabricks.net/api/2.0/workspace/list?path={path}"
     headers = {
