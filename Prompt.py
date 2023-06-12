@@ -52,10 +52,10 @@ def read_from_file(filename):
         print(f"Failed to write to file: {e}")
 def main():
     token_validator = TokenValidator()
-    # workspaceUrl=input("Enter yout workspaceurl:")
-    # token = getpass("Enter your token: ")
-    workspaceUrl="https://adb-7614304971745696.16.azuredatabricks.net"
-    token="dapi1c4cf5375ba46dc16b74bce14bad4b2a-2"
+    workspaceUrl=input("Enter yout workspaceurl:")
+    token = getpass("Enter your token: ")
+    # workspaceUrl="https://adb-7614304971745696.16.azuredatabricks.net"
+    # token="dapi1c4cf5375ba46dc16b74bce14bad4b2a-2"
 
     if token_validator.is_valid_token(token,workspaceUrl):
         # Create an instance of the NotebookManager class
