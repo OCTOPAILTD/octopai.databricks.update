@@ -70,14 +70,16 @@ def main():
                    txt=json.dumps(listOfDict)
                    fileName="notebooks.json"
                    write_to_file(fileName,txt)
-                   log.info(f"json file was created {fileName}")
-                   log.info(f"number of notebooks {len(listOfDict)}")
+                   log.info(f"json file was created:{fileName}")
+                   log.info(f"number of notebooks:{len(listOfDict)}")
             elif choice == '2':
                 json_file = input("Enter the path to the JSON file to run the update: ")
                 txt=read_from_file(json_file)
                 dictx=json.loads(txt)
                 listOfDictsUpdated=[]
                 notebook_manager.modify_workspace("/",dictx,listOfDictsUpdated)
+                log.info(f"number of updated notebooks:{len(listOfDictsUpdated)}")
+
             else:
                 log.error("Invalid choice.")
     else:
