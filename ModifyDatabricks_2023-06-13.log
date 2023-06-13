@@ -1,0 +1,423 @@
+/Formula1-Project-Solutions (1)/Section-16-17-18/utils/1.prepare_for_incremental_load
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/9.create_processed_database
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions (1)/Section-16-17-18/raw/1.create_raw_tables
+/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/2.find_dominant_teams
+/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/3.viz_dominant_drivers
+/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/4.viz_dominant_teams
+/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/1.find_dominant_drivers
+/Formula1-Project-Solutions (1)/Section-12/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions (1)/Section-12/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions (1)/Section-12/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/set-up/mount_adls_storage
+/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/4.viz_dominant_teams
+/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/3.viz_dominant_drivers
+/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/2.find_dominant_teams
+/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/1.find_dominant_drivers
+/Formula1-Project-Solutions (1)/Section-20/formula1/raw/1.create_raw_tables
+/Formula1-Project-Solutions (1)/Section-20/formula1/utils/1.prepare_for_incremental_load
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/4.sql_temp_view_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/9.sql_joins_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/6.sql_objects_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/5.sql_temp_view_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/3.aggregation_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/7.sql_basics_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/2.join_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/8.sql_functions_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/10.delta_lake_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/demo/1.filter_demo
+/Formula1-Project-Solutions (1)/Section-20/formula1/includes/common_functions
+/Formula1-Project-Solutions (1)/Section-20/formula1/includes/configuration
+/Formula1-Project-Solutions (1)/Section-20/formula1/trans/1.race_results
+/Formula1-Project-Solutions (1)/Section-20/formula1/trans/4.calculated_race_results
+/Formula1-Project-Solutions (1)/Section-20/formula1/trans/3.constructor_standings
+/Formula1-Project-Solutions (1)/Section-20/formula1/trans/0.create_presentation_database
+/Formula1-Project-Solutions (1)/Section-20/formula1/trans/2.driver_standings
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/9.create_processed_database
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/3.viz_dominant_drivers
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/2.find_dominant_teams
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/4.viz_dominant_teams
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/1.find_dominant_drivers
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/set-up/mount_adls_storage
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/9.create_processed_database
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/3.constructor_standings
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/2.driver_standings
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/1.race_results
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/4.calculated_race_results
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/0.create_presentation_database
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/4.sql_temp_view_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/8.sql_functions_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/10.delta_lake_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/9.sql_joins_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/1.filter_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/5.sql_temp_view_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/6.sql_objects_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/2.join_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/3.aggregation_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/7.sql_basics_demo
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/includes/common_functions
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/includes/configuration
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/utils/1.prepare_for_incremental_load
+/Formula1-Project-Solutions (1)/Z-End of Course/formula1/raw/1.create_raw_tables
+/Formula1-Project-Solutions (1)/Section-14/trans/2.driver_standings
+/Formula1-Project-Solutions (1)/Section-14/trans/1.race_results
+/Formula1-Project-Solutions (1)/Section-14/trans/3.constructor_standings
+/Formula1-Project-Solutions (1)/Section-19/trans/1.race_results
+/Formula1-Project-Solutions (1)/Section-19/trans/4.calculated_race_results
+/Formula1-Project-Solutions (1)/Section-19/trans/3.constructor_standings
+/Formula1-Project-Solutions (1)/Section-19/trans/0.create_presentation_database
+/Formula1-Project-Solutions (1)/Section-19/trans/2.driver_standings
+/Formula1-Project-Solutions (1)/Section-19/includes/common_functions
+/Formula1-Project-Solutions (1)/Section-19/includes/configuration
+/Formula1-Project-Solutions (1)/Section-19/ingestion/9.create_processed_database
+/Formula1-Project-Solutions (1)/Section-19/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions (1)/Section-19/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions (1)/Section-19/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions (1)/Section-06/mount_adls_storage-lesson-6
+/Formula1-Project-Solutions (1)/Section-06/mount_adls_storage-lesson-9
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/8.ingest_qualifying_file
+/Users/dora@octopai.com/Sql_PY (1)
+/Users/zacayd@octopai.com/splineScaleExample
+/Users/zacayd@octopai.com/ScalaCode
+/Users/zacayd@octopai.com/SplineCode
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/utils/1.prepare_for_incremental_load
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/9.create_processed_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/0.ingest_all_files
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/7.ingest_lap_times_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/8.ingest_qualifying_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/6.ingest_pit_stops_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/4.ingest_drivers_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/1.ingest_circuits_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/2.ingest_races_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/3.ingest_constructors_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/5.ingest_results_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/raw/1.create_raw_tables
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/2.find_dominant_teams
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/3.viz_dominant_drivers
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/4.viz_dominant_teams
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/1.find_dominant_drivers
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/1.ingest_circuits_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/7.ingest_lap_times_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/4.ingest_drivers_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/5.ingest_results_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/8.ingest_qualifying_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/0.ingest_all_files
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/2.ingest_races_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/3.ingest_constructors_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/6.ingest_pit_stops_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/set-up/mount_adls_storage
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/4.viz_dominant_teams
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/3.viz_dominant_drivers
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/2.find_dominant_teams
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/1.find_dominant_drivers
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/raw/1.create_raw_tables
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/utils/1.prepare_for_incremental_load
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/4.sql_temp_view_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/9.sql_joins_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/6.sql_objects_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/5.sql_temp_view_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/3.aggregation_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/7.sql_basics_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/2.join_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/8.sql_functions_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/10.delta_lake_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/1.filter_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/includes/common_functions
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/includes/configuration
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/1.race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/4.calculated_race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/3.constructor_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/0.create_presentation_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/2.driver_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/7.ingest_lap_times_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/6.ingest_pit_stops_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/3.ingest_constructors_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/4.ingest_drivers_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/1.ingest_circuits_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/9.create_processed_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/2.ingest_races_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/0.ingest_all_files
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/5.ingest_results_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/8.ingest_qualifying_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/3.viz_dominant_drivers
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/2.find_dominant_teams
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/4.viz_dominant_teams
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/1.find_dominant_drivers
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/set-up/mount_adls_storage
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/0.ingest_all_files
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/9.create_processed_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/4.ingest_drivers_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/5.ingest_results_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/3.ingest_constructors_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/2.ingest_races_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/1.ingest_circuits_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/3.constructor_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/2.driver_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/1.race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/4.calculated_race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/0.create_presentation_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/4.sql_temp_view_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/8.sql_functions_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/10.delta_lake_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/9.sql_joins_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/1.filter_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/5.sql_temp_view_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/6.sql_objects_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/2.join_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/3.aggregation_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/7.sql_basics_demo
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/includes/common_functions
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/includes/configuration
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/utils/1.prepare_for_incremental_load
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/raw/1.create_raw_tables
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/2.driver_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/1.race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/3.constructor_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/1.race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/4.calculated_race_results
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/3.constructor_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/0.create_presentation_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/2.driver_standings
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/includes/common_functions
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/includes/configuration
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/9.create_processed_database
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/3.ingest_constructors_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/4.ingest_drivers_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/6.ingest_pit_stops_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/2.ingest_races_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/8.ingest_qualifying_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/7.ingest_lap_times_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/1.ingest_circuits_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/0.ingest_all_files
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/5.ingest_results_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-6
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-9
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/7.ingest_lap_times_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/5.ingest_results_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/2.ingest_races_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/3.ingest_constructors_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/4.ingest_drivers_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/1.ingest_circuits_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/6.ingest_pit_stops_file
+/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/8.ingest_qualifying_file
+/Users/zacayd@octopai.com/pythonz
+/Users/zacayd@octopai.com/Sandvine_BillingRecon
+/Users/zacayd@octopai.com/SqlExample
+/Users/zacayd@octopai.com/Zacay
+/Users/zacayd@octopai.com/Scala
+/Users/zacayd@octopai.com/Scala2
+/Users/zacayd@octopai.com/NoteBookTest
+/Users/zacayd@octopai.com/2022-10-31 - DBFS Example
+/Users/zacayd@octopai.com/Scala1
+/Users/zacayd@octopai.com/pythony
+/Users/zacayd@octopai.com/py2
+/Users/zacayd@octopai.com/TEST
+/Users/zacayd@octopai.com/ScalaHarverster
+/Users/zacayd@octopai.com/MyTest
+/Users/zacayd@octopai.com/Azure Blob Storage
+/Users/zacayd@octopai.com/MySQL
+/Users/zacayd@octopai.com/ExampleDLT
+/Users/zacayd@octopai.com/ExampleDLT_SQL
+/Users/zacayd@octopai.com/Untitled Notebook 2023-06-12 15:44:30
+/Users/zacayd@octopai.com/MyLogs
+/Users/zacayd@octopai.com/Helper
+/Users/zacayd@octopai.com/Digicel_SandvineBilling
+/Users/zacayd@octopai.com/Digicel
+/Users/zacayd@octopai.com/Scalal
+/Users/zacayd@octopai.com/2022-10-25 - DBFS Example
+/Users/zacayd@octopai.com/pythonX
+/Users/zacayd@octopai.com/Sql_PY
+/Users/zacayd@octopai.com/ScalaPython
+/Shared/Untitled Notebook 2023-05-23 09:28:27
+/Shared/DL_BULKSMS_JAM
+/Shared/AAP_CLIENT
+/Shared/Sandvine_BillingRecon
+/Shared/SELFCARE_USAGE
+/Shared/ShakeIT_WonReward
+/Shared/ODS_Digicel_App
+/Shared/ODS_Digicel_App_User
+/Shared/ODS_Selfcare_Incremental
+/Shared/ODS_ShakeITAttempt
+/Shared/Data-Delivery/EDW/NB_CargaTbContratoVarejo
+/Shared/Querying the Delta Live Tables event log
+/Shared/DL_BULKSMS_JAM_TEST
+/Formula1-Project-Solutions/Section-16-17-18/utils/1.prepare_for_incremental_load
+/Formula1-Project-Solutions/Section-16-17-18/analysis/3.viz_dominant_drivers
+/Formula1-Project-Solutions/Section-16-17-18/analysis/4.viz_dominant_teams
+/Formula1-Project-Solutions/Section-16-17-18/analysis/2.find_dominant_teams
+/Formula1-Project-Solutions/Section-16-17-18/analysis/1.find_dominant_drivers
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/9.create_processed_database
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions/Section-16-17-18/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions/Section-16-17-18/raw/1.create_raw_tables
+/Formula1-Project-Solutions/Section-14/trans/3.constructor_standings
+/Formula1-Project-Solutions/Section-14/trans/2.driver_standings
+/Formula1-Project-Solutions/Section-14/trans/1.race_results
+/Formula1-Project-Solutions/Section-12/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions/Section-12/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions/Section-12/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions/Section-12/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions/Section-12/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions/Section-12/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions/Section-12/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions/Section-12/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions/Section-12/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-6
+/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-9
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions/Section-09-10-11/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions/Section-19/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions/Section-19/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions/Section-19/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions/Section-19/ingestion/9.create_processed_database
+/Formula1-Project-Solutions/Section-19/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions/Section-19/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions/Section-19/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions/Section-19/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions/Section-19/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions/Section-19/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions/Section-19/trans/4.calculated_race_results
+/Formula1-Project-Solutions/Section-19/trans/0.create_presentation_database
+/Formula1-Project-Solutions/Section-19/trans/3.constructor_standings
+/Formula1-Project-Solutions/Section-19/trans/1.race_results
+/Formula1-Project-Solutions/Section-19/trans/2.driver_standings
+/Formula1-Project-Solutions/Section-19/includes/common_functions
+/Formula1-Project-Solutions/Section-19/includes/configuration
+/Formula1-Project-Solutions/Section-20/formula1/set-up/mount_adls_storage
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/9.create_processed_database
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions/Section-20/formula1/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions/Section-20/formula1/utils/1.prepare_for_incremental_load
+/Formula1-Project-Solutions/Section-20/formula1/trans/3.constructor_standings
+/Formula1-Project-Solutions/Section-20/formula1/trans/4.calculated_race_results
+/Formula1-Project-Solutions/Section-20/formula1/trans/1.race_results
+/Formula1-Project-Solutions/Section-20/formula1/trans/0.create_presentation_database
+/Formula1-Project-Solutions/Section-20/formula1/trans/2.driver_standings
+/Formula1-Project-Solutions/Section-20/formula1/analysis/3.viz_dominant_drivers
+/Formula1-Project-Solutions/Section-20/formula1/analysis/1.find_dominant_drivers
+/Formula1-Project-Solutions/Section-20/formula1/analysis/2.find_dominant_teams
+/Formula1-Project-Solutions/Section-20/formula1/analysis/4.viz_dominant_teams
+/Formula1-Project-Solutions/Section-20/formula1/raw/1.create_raw_tables
+/Formula1-Project-Solutions/Section-20/formula1/demo/8.sql_functions_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/5.sql_temp_view_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/6.sql_objects_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/2.join_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/9.sql_joins_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/4.sql_temp_view_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/3.aggregation_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/10.delta_lake_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/7.sql_basics_demo
+/Formula1-Project-Solutions/Section-20/formula1/demo/1.filter_demo
+/Formula1-Project-Solutions/Section-20/formula1/includes/configuration
+/Formula1-Project-Solutions/Section-20/formula1/includes/common_functions
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/2.ingest_races_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/5.ingest_results_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/9.create_processed_database
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/3.ingest_constructors_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/1.ingest_circuits_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/0.ingest_all_files
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/4.ingest_drivers_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file
+/Formula1-Project-Solutions/Z-End of Course/formula1/set-up/mount_adls_storage
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/6.sql_objects_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/7.sql_basics_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/8.sql_functions_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/4.sql_temp_view_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/3.aggregation_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/1.filter_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/2.join_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/5.sql_temp_view_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/9.sql_joins_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/demo/10.delta_lake_demo
+/Formula1-Project-Solutions/Z-End of Course/formula1/includes/common_functions
+/Formula1-Project-Solutions/Z-End of Course/formula1/includes/configuration
+/Formula1-Project-Solutions/Z-End of Course/formula1/utils/1.prepare_for_incremental_load
+/Formula1-Project-Solutions/Z-End of Course/formula1/raw/1.create_raw_tables
+/Formula1-Project-Solutions/Z-End of Course/formula1/trans/0.create_presentation_database
+/Formula1-Project-Solutions/Z-End of Course/formula1/trans/2.driver_standings
+/Formula1-Project-Solutions/Z-End of Course/formula1/trans/1.race_results
+/Formula1-Project-Solutions/Z-End of Course/formula1/trans/3.constructor_standings
+/Formula1-Project-Solutions/Z-End of Course/formula1/trans/4.calculated_race_results
+/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/3.viz_dominant_drivers
+/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/1.find_dominant_drivers
+/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/4.viz_dominant_teams
+/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/2.find_dominant_teams
+/Formula1-Project-Solutions/Querying the Delta Live Tables event log
+/AAP_USER
+/ShakeIT_Attempt
+/ODS_Selfcare_Incremental
+/ODS_ShakeITWonReward
+/ODS_ShakeITWonReward (1)
+Successfully wrote content to notebooks.json.
+json file was created notebooks.json
+number of notebooks 420
