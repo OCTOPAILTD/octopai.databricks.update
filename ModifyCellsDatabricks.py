@@ -176,52 +176,22 @@ class NotebookManager:
         except Exception as e:
             self.logger.error(e)
 
-    def modify_workspace(self, path, listOfDicts,listOfDictsUpdated):
+    def modify_workspace(self, listOfDicts,listOfDictsUpdated):
         try:
-            self._modify_workspace_recursive(path, listOfDicts, listOfDictsUpdated,offset=0)
+            listOfPaths= [  {"workspaceURL":x["workspaceURL"],
+                            "notebookPath": x["notebookPath"],
+                            "language":x["language"],
+                            "isAutomate": x["isAutomate"]} for x in listOfDicts if eval(x["isAutomate"]) == True]
+
+            for notebook in listOfPaths:
+                listOfDictsUpdated.append({"notebookPath": notebook["notebookPath"], "workspacseUrl": notebook["workspaceURL"]})
+                self.add_cells_to_notebook(notebook["notebookPath"], notebook["language"])
+                self.logger.info(notebook["notebookPath"])
+
             self.logger.info(f"Number of notebooks updated:{len(listOfDictsUpdated)}")
         except Exception as e:
             self.logger.error(e)
 
-    def _modify_workspace_recursive(self, path, listOfDicts,listOfDictsUpdated, offset=0, limit=1000):
-        try:
-            url = f"{self.workspaceURL}/api/2.0/workspace/list?path={path}"
-            headers = {
-                'Content-Type': 'application/ecmascript',
-                'Authorization': f'Bearer {self.token}'
-            }
-
-            response = requests.get(url, headers=headers)
-            contents = response.json()
-
-            if len(contents) > 0:
-                for item in contents["objects"]:
-                    item_type = item["object_type"]
-                    item_path = item["path"]
-
-                    if item_type == "DIRECTORY":
-                        # Recursively process subdirectory
-                        self._modify_workspace_recursive(item_path, listOfDicts,listOfDictsUpdated)
-                    elif item_type == "NOTEBOOK":
-                        # Add cells to the notebook
-                        language = item['language']
-                        item_path = item["path"]
-
-                        isAdd=[ x["isAutomate"] for x in listOfDicts if x["notebookPath"]==item_path][0]
-                        if (isAdd):
-                            listOfDictsUpdated.append({"notebookPath":item_path,"workspacseUrl":self.workspaceURL})
-
-                            self.add_cells_to_notebook(item_path,language)
-                            self.logger.info(item_path)
-                        else:
-                            self.logger.info(f"Ignore notebook {item_path}")
-
-            # Check if there are more items to fetch
-            # if "has_more" in contents and contents["has_more"]:
-            #     next_offset = offset + limit
-            #     self._print_workspace_recursive(path, dict_of_notebooks, offset=next_offset)
-        except Exception as e:
-            self.logger.error(e)
     def add_cells_to_notebook(self,notebook_path, language):
         lineagePythonForPy = "HeadersForSpline/lineagePythonForPy.txt"
         lineagePythonForSQL = "HeadersForSpline/lineagePythonForSQL.txt"

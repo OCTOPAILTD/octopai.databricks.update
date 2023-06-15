@@ -1,1 +1,2522 @@
-[{"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/utils/1.prepare_for_incremental_load", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/set-up/mount_adls_storage", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/4.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/9.sql_joins_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/6.sql_objects_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/5.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/3.aggregation_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/7.sql_basics_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/2.join_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/8.sql_functions_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/10.delta_lake_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/1.filter_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/4.calculated_race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/set-up/mount_adls_storage", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/4.calculated_race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/4.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/8.sql_functions_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/10.delta_lake_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/9.sql_joins_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/1.filter_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/5.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/6.sql_objects_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/2.join_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/3.aggregation_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/7.sql_basics_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-14/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-14/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-14/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/4.calculated_race_results", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-06/mount_adls_storage-lesson-6", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-06/mount_adls_storage-lesson-9", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/dora@octopai.com/Sql_PY (1)", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/splineScaleExample", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/ScalaCode", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/SplineCode", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/set-up/mount_adls_storage", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/4.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/9.sql_joins_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/6.sql_objects_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/5.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/3.aggregation_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/7.sql_basics_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/2.join_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/8.sql_functions_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/10.delta_lake_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/1.filter_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/4.calculated_race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/set-up/mount_adls_storage", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/4.calculated_race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/4.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/8.sql_functions_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/10.delta_lake_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/9.sql_joins_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/1.filter_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/5.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/6.sql_objects_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/2.join_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/3.aggregation_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/7.sql_basics_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/4.calculated_race_results", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-6", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-9", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/pythonz", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Sandvine_BillingRecon", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/SqlExample", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Zacay", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Scala", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Scala2", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/NoteBookTest", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/2022-10-31 - DBFS Example", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Scala1", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/pythony", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/py2", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/TEST", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/ScalaHarverster", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/MyTest", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Azure Blob Storage", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/MySQL", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/ExampleDLT", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/ExampleDLT_SQL", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Untitled Notebook 2023-06-12 15:44:30", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/MyLogs", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Helper", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Digicel_SandvineBilling", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Digicel", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Scalal", "language": "SCALA", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/2022-10-25 - DBFS Example", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/pythonX", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/Sql_PY", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Users/zacayd@octopai.com/ScalaPython", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/Untitled Notebook 2023-05-23 09:28:27", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/DL_BULKSMS_JAM", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/AAP_CLIENT", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/Sandvine_BillingRecon", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/SELFCARE_USAGE", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/ShakeIT_WonReward", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/ODS_Digicel_App", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/ODS_Digicel_App_User", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/ODS_Selfcare_Incremental", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/ODS_ShakeITAttempt", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/Data-Delivery/EDW/NB_CargaTbContratoVarejo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/Querying the Delta Live Tables event log", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Shared/DL_BULKSMS_JAM_TEST", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-14/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-14/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-14/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-6", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-9", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/trans/4.calculated_race_results", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-19/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/set-up/mount_adls_storage", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/4.calculated_race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/8.sql_functions_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/5.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/6.sql_objects_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/2.join_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/9.sql_joins_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/4.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/3.aggregation_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/10.delta_lake_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/7.sql_basics_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/1.filter_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/2.ingest_races_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/5.ingest_results_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/9.create_processed_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/3.ingest_constructors_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/1.ingest_circuits_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/0.ingest_all_files", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/4.ingest_drivers_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/set-up/mount_adls_storage", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/6.sql_objects_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/7.sql_basics_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/8.sql_functions_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/4.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/3.aggregation_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/1.filter_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/2.join_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/5.sql_temp_view_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/9.sql_joins_demo", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/10.delta_lake_demo", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/includes/common_functions", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/includes/configuration", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/utils/1.prepare_for_incremental_load", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/raw/1.create_raw_tables", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/0.create_presentation_database", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/2.driver_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/1.race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/3.constructor_standings", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/4.calculated_race_results", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/3.viz_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/1.find_dominant_drivers", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/4.viz_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/2.find_dominant_teams", "language": "SQL", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/Formula1-Project-Solutions/Querying the Delta Live Tables event log", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/AAP_USER", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/ShakeIT_Attempt", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/ODS_Selfcare_Incremental", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/ODS_ShakeITWonReward", "language": "PYTHON", "isAutomate": "True"}, {"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net", "notebookPath": "/ODS_ShakeITWonReward (1)", "language": "PYTHON", "isAutomate": "True"}]
+[
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/utils/1.prepare_for_incremental_load",
+		"language": "PYTHON",
+		"isAutomate": "True"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "True"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-16-17-18/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-12/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/set-up/mount_adls_storage",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/4.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/9.sql_joins_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/6.sql_objects_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/5.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/3.aggregation_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/7.sql_basics_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/2.join_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/8.sql_functions_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/10.delta_lake_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/demo/1.filter_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/4.calculated_race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-20/formula1/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/set-up/mount_adls_storage",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/4.calculated_race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/4.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/8.sql_functions_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/10.delta_lake_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/9.sql_joins_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/1.filter_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/5.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/6.sql_objects_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/2.join_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/3.aggregation_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/demo/7.sql_basics_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Z-End of Course/formula1/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-14/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-14/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-14/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/4.calculated_race_results",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-19/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-06/mount_adls_storage-lesson-6",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-06/mount_adls_storage-lesson-9",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions (1)/Section-09-10-11/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/dora@octopai.com/Sql_PY (1)",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/splineScaleExample",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/ScalaCode",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/SplineCode",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-16-17-18/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-12/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/set-up/mount_adls_storage",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/4.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/9.sql_joins_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/6.sql_objects_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/5.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/3.aggregation_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/7.sql_basics_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/2.join_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/8.sql_functions_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/10.delta_lake_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/demo/1.filter_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/4.calculated_race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-20/formula1/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/set-up/mount_adls_storage",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/4.calculated_race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/4.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/8.sql_functions_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/10.delta_lake_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/9.sql_joins_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/1.filter_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/5.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/6.sql_objects_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/2.join_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/3.aggregation_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/demo/7.sql_basics_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Z-End of Course/formula1/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-14/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/4.calculated_race_results",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-19/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-6",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-9",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Formula1-Project-Solutions/Section-09-10-11/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/pythonz",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Sandvine_BillingRecon",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/SqlExample",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Zacay",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Scala",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Scala2",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/NoteBookTest",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/2022-10-31 - DBFS Example",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Scala1",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/pythony",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/py2",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/TEST",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/ScalaHarverster",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/MyTest",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Azure Blob Storage",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/MySQL",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/ExampleDLT",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/ExampleDLT_SQL",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Untitled Notebook 2023-06-12 15:44:30",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/MyLogs",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Helper",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Digicel_SandvineBilling",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Digicel",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Scalal",
+		"language": "SCALA",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/2022-10-25 - DBFS Example",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/pythonX",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/Sql_PY",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Users/zacayd@octopai.com/ScalaPython",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/Untitled Notebook 2023-05-23 09:28:27",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/DL_BULKSMS_JAM",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/AAP_CLIENT",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/Sandvine_BillingRecon",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/SELFCARE_USAGE",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/ShakeIT_WonReward",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/ODS_Digicel_App",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/ODS_Digicel_App_User",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/ODS_Selfcare_Incremental",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/ODS_ShakeITAttempt",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/Data-Delivery/EDW/NB_CargaTbContratoVarejo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/Querying the Delta Live Tables event log",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Shared/DL_BULKSMS_JAM_TEST",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-16-17-18/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-14/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-14/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-14/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-12/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-6",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-06/mount_adls_storage-lesson-9",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-09-10-11/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/trans/4.calculated_race_results",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-19/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/set-up/mount_adls_storage",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/4.calculated_race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/8.sql_functions_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/5.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/6.sql_objects_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/2.join_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/9.sql_joins_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/4.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/3.aggregation_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/10.delta_lake_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/7.sql_basics_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/demo/1.filter_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Section-20/formula1/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/7.ingest_lap_times_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/2.ingest_races_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/5.ingest_results_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/9.create_processed_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/3.ingest_constructors_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/1.ingest_circuits_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/0.ingest_all_files",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/4.ingest_drivers_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/8.ingest_qualifying_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/ingestion/6.ingest_pit_stops_file",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/set-up/mount_adls_storage",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/6.sql_objects_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/7.sql_basics_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/8.sql_functions_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/4.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/3.aggregation_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/1.filter_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/2.join_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/5.sql_temp_view_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/9.sql_joins_demo",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/demo/10.delta_lake_demo",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/includes/common_functions",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/includes/configuration",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/utils/1.prepare_for_incremental_load",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/raw/1.create_raw_tables",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/0.create_presentation_database",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/2.driver_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/1.race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/3.constructor_standings",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/trans/4.calculated_race_results",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/3.viz_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/1.find_dominant_drivers",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/4.viz_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Z-End of Course/formula1/analysis/2.find_dominant_teams",
+		"language": "SQL",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/Formula1-Project-Solutions/Querying the Delta Live Tables event log",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/AAP_USER",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/ShakeIT_Attempt",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/ODS_Selfcare_Incremental",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/ODS_ShakeITWonReward",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	},
+	{
+		"workspaceURL": "https://adb-7614304971745696.16.azuredatabricks.net",
+		"notebookPath": "/ODS_ShakeITWonReward (1)",
+		"language": "PYTHON",
+		"isAutomate": "False"
+	}
+]

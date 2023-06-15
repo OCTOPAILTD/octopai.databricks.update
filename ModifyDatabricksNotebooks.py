@@ -74,11 +74,16 @@ def main():
                    log.info(f"number of notebooks:{len(listOfDict)}")
             elif choice == '2':
                 json_file = input("Enter the path to the JSON file to run the update: ")
-                txt=read_from_file(json_file)
-                dictx=json.loads(txt)
-                listOfDictsUpdated=[]
-                notebook_manager.modify_workspace("/",dictx,listOfDictsUpdated)
-                log.info(f"number of updated notebooks:{len(listOfDictsUpdated)}")
+                try:
+                    txt=read_from_file(json_file)
+
+                    dictx=json.loads(txt)
+                    listOfDictsUpdated=[]
+                    notebook_manager.modify_workspace(dictx,listOfDictsUpdated)
+                    log.info(f"number of updated notebooks:{len(listOfDictsUpdated)}")
+                except Exception as e:
+                    log.info(e)
+
             elif choice == '3':
                 print("Exit")
                 break
