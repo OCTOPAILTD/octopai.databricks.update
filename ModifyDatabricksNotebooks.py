@@ -63,7 +63,7 @@ def main():
         notebook_manager = NotebookManager(token,workspaceUrl,log)
 
         while True:
-            choice = input("Choose an option:\n1. Create list of notebooks\n2. Add text to notebooks in a JSON file\n")
+            choice = input("Choose an option:\n1. Create list of notebooks\n2. Add text to notebooks in a JSON file\n3.Exit\n")
             if choice == '1':
                    listOfDict=[]
                    notebook_manager.print_workspace("/",listOfDict)
@@ -79,6 +79,10 @@ def main():
                 listOfDictsUpdated=[]
                 notebook_manager.modify_workspace("/",dictx,listOfDictsUpdated)
                 log.info(f"number of updated notebooks:{len(listOfDictsUpdated)}")
+            elif choice == '3':
+                print("Exit")
+                break
+
 
             else:
                 log.error("Invalid choice.")
