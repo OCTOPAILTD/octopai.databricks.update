@@ -236,16 +236,21 @@ class NotebookManager:
         notebook_content = json.loads(notebook_content)
         new_text = ""
         try:
-            content_decoded = base64.b64decode(notebook_content["content"]).decode('utf-8')
-            lines = content_decoded.split('\n')
+            if not "error_code" in notebook_content:
+                content_decoded = base64.b64decode(notebook_content["content"]).decode('utf-8')
+                lines = content_decoded.split('\n')
 
-            # Remove the first line
-            if lines:
-                lines = lines[1:]
+                # Remove the first line
+                if lines:
+                    lines = lines[1:]
 
-            # Join the lines back into a single text string
-            new_text = '\n'.join(lines)
-            self.logger.error(new_text)
+                # Join the lines back into a single text string
+                new_text = '\n'.join(lines)
+                self.logger.error(new_text)
+            else :
+                if not "error_code" in notebook_content:
+                    self.logger.error(["error_code"])
+
         except Exception as e:
             self.logger.error(e)
 
